@@ -91,6 +91,8 @@ export default class GraphConsumer extends React.Component<IGraphConsumerProps, 
                     onClick={ this._search } 
                   />
               </p>
+              
+              
               {
                 (this.state.users != null && this.state.users.length > 0) ?
                   <p className={ styles.form }>
